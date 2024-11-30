@@ -43,6 +43,31 @@ export default {
         answerIndex: 3,
         choices: ["1-5", "5-10", "10-15", "15-30"],
       },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
     ],
   },
   cloud: {
@@ -58,16 +83,416 @@ export default {
           "IBM Cloud",
         ],
       },
+      {
+        question:
+          "What does the term 'IaaS' stand for in the context of cloud computing ?",
+        answerIndex: 1,
+        choices: [
+          "Internet as a Service",
+          "Infrastructure as a Service",
+          "Integrated Application as a Service",
+          "International Access and Availability Service",
+        ],
+      },
+      {
+        question:
+          "What does the term 'IaaS' stand for in the context of cloud computing ?",
+        answerIndex: 1,
+        choices: [
+          "Internet as a Service",
+          "Infrastructure as a Service",
+          "Integrated Application as a Service",
+          "International Access and Availability Service",
+        ],
+      },
+      {
+        question:
+          "Which cloud deployment model is characterized by a single organization using a cloud infrastructure for its own exclusive use?",
+        answerIndex: 3,
+        choices: [
+          "Public cloud",
+          "Hybrid cloud",
+          "Community cloud",
+          "Private cloud",
+        ],
+      },
+      {
+        question: "Guess our team's current headcount?",
+        answerIndex: 3,
+        choices: ["20", "29", "32", "40"],
+      },
+      {
+        question:
+          "What is the primary function of a cloud-based Content Delivery Network (CDN)?",
+        answerIndex: 1,
+        choices: [
+          "Providing cloud storage services",
+          "Accelerating the delivery of web content to users",
+          "Managing cloud security policies",
+          "Hosting cloud-based applications",
+        ],
+      },
+      {
+        question: "What is Cloud Computing replacing?",
+        answerIndex: 0,
+        choices: [
+          "Corporate data centers",
+          "Expensive personal computer hardware",
+          "Expensive software upgrades",
+          "All of the above",
+        ],
+      },
     ],
   },
-  cybersecurity: {},
-  salesforce: {},
-  "data-analytics": {},
-  "ms-dynamics": {},
-  "oracle-epm": {},
-  pmo: {},
-  "custom-dev": {},
-  testing: {},
+  cybersecurity: {
+    questions: [
+      {
+        question:
+          "What is the number one threat affecting Cybersecurity in 2023?",
+        answerIndex: 3,
+        choices: ["Human Error", "AI", "Phishing emails", "All of the Above"],
+      },
+      {
+        question:
+          "Why are Cybersecurity professionals currently in very high demand ?",
+        answerIndex: 1,
+        choices: [
+          "Knowledge of IT",
+          "Interconnectedness increasing rapidly",
+          "Shift in Market Trend",
+          "Motivation of threat Agents",
+        ],
+      },
+      {
+        question:
+          "Which Cybersecurity practice deals with only allowing certain users to do certain tasks ?",
+        answerIndex: 1,
+        choices: [
+          "Cyber risk and compliance",
+          "Identity and access management",
+          "Cloud security",
+          "Threat detection",
+        ],
+      },
+      {
+        question: "Which of the following describes a computer hacker ?",
+        answerIndex: 1,
+        choices: [
+          "A Skilled programmer who uses authorized access to exploit information available on a computer",
+          "A Skilled programmer who secretly invades computers without authorization",
+          "A Skilled programmer who writes programs to train new employees",
+          "A Skilled programmer who helps in the installation of new software for an organization",
+        ],
+      },
+      {
+        question: "What is the most common delivery method for viruses ?",
+        answerIndex: 0,
+        choices: [
+          "Email",
+          "File Downloads",
+          "Portable media",
+          "Instant Message",
+        ],
+      },
+    ],
+  },
+  salesforce: {
+    questions: [
+      {
+        question: "What is Salesforce ?",
+        answerIndex: 0,
+        choices: [
+          "A CRM System",
+          "A RCM System",
+          "A Chrome extension",
+          "An App on your laptop",
+        ],
+      },
+      {
+        question: "What is the PwC's role in the Salesforce ecosystem ?",
+        answerIndex: 0,
+        choices: ["Partner", "Customer", "Reseller", "All of the above"],
+      },
+      {
+        question: "What are the top relevant Salesforce Positions ?",
+        answerIndex: 3,
+        choices: ["Admin", "Consultant", "Developer", "All of the above"],
+      },
+      {
+        question: "What is an Object in Salesforce ?",
+        answerIndex: 1,
+        choices: [
+          "The Actual data",
+          "A table that stores information",
+          "Details relating to records",
+          "A material thing that can be seen and touched",
+        ],
+      },
+      {
+        question: "Where do Objects live in Salesforce ?",
+        answerIndex: 2,
+        choices: ["In a house", "In a Field", "In an App", "On a record"],
+      },
+    ],
+  },
+  "data-analytics": {
+    questions: [
+      {
+        question: "What are the different data warehouse schemas ?",
+        answerIndex: 3,
+        choices: ["Star Schema", "Snowflake", "A only", "A & B"],
+      },
+      {
+        question: "What does ETL stand for ?",
+        answerIndex: 3,
+        choices: [
+          "Extract, transfer and load",
+          "Explain, transform and load",
+          "Explain, transfer and load",
+          "Extract, transform and load",
+        ],
+      },
+      {
+        question:
+          "Which of the following statements is true about Business Intelligence ?",
+        answerIndex: 3,
+        choices: [
+          "BI convert raw data into meaningful Information",
+          "BI has a direct impact on Organizations strategic tactical and operational business decisions",
+          "BI tools perform data analysis and create reports, summaries, dashboards, maps, graphs and charts",
+          "All of the above",
+        ],
+      },
+      {
+        question: "The Primary key must be ?",
+        answerIndex: 2,
+        choices: ["Unique", "Not Null", "A&B", "B only"],
+      },
+      {
+        question: "What are the different BI tools ?",
+        answerIndex: 2,
+        choices: ["Tableau", "Power BI", "A&B", "B Only"],
+      },
+    ],
+  },
+  "ms-dynamics": {
+    questions: [
+      {
+        question: "In Microsoft Dynamics 365, What does CRM stand for ?",
+        answerIndex: 0,
+        choices: [
+          "Customer Relationship Management",
+          "Center for Remote Management",
+          "Creative Resource Metrics",
+          "Customer Relocation Matrix",
+        ],
+      },
+      {
+        question: "In Microsoft Dynamics 365 'FO', What does 'FO' stand for ?",
+        answerIndex: 2,
+        choices: [
+          "Feature Output",
+          "Forward Orientation",
+          "Finance and Operations",
+          "Functional Object",
+        ],
+      },
+      {
+        question: "How many Microsoft Dynamics tracks does PwC ETIC provide ?",
+        answerIndex: 2,
+        choices: ["5", "7", "3", "8"],
+      },
+      {
+        question: "what are the top Relevant Microsoft Dynamics positions ?",
+        answerIndex: 3,
+        choices: [
+          "Technical",
+          "Developer",
+          "Techno-Functional",
+          "All of the Above",
+        ],
+      },
+      {
+        question: "What is the Microsoft Dynamics AI Product ?",
+        answerIndex: 2,
+        choices: ["Chat-GPT", "Bard", "Copilot", "GenAI"],
+      },
+    ],
+  },
+  "oracle-epm": {
+    questions: [
+      {
+        question: "How many oracle tracks does PwC ETIC Provide ?",
+        answerIndex: 2,
+        choices: ["5", "6", "7", "8"],
+      },
+      {
+        question: "Which Track focuses on planning and budgeting ?",
+        answerIndex: 1,
+        choices: [
+          "Supply Chain",
+          "Enterprise Performance Management",
+          "Customer Experience (CX)",
+          "Financial",
+        ],
+      },
+      {
+        question: "In which year Oracle database has been created ?",
+        answerIndex: 1,
+        choices: ["1967", "1977", "1987", "1997"],
+      },
+      {
+        question: "What are the main benefits of using Oracle Technologies  ?",
+        answerIndex: 3,
+        choices: [
+          "Improve Security",
+          "Enhance Productivity",
+          "Cost Saving",
+          "All of the Above",
+        ],
+      },
+    ],
+  },
+  pmo: {
+    questions: [
+      {
+        question: "What does PMO stand for ?",
+        answerIndex: 2,
+        choices: [
+          "Project Management Organization ?",
+          "Program Management organization",
+          "Project Management Office",
+          "Project Monitoring and Oversight",
+        ],
+      },
+      {
+        question:
+          "The Scrum Master is responsible for facilitating which of the following ?",
+        answerIndex: 3,
+        choices: [
+          "Sprint Planning",
+          "Daily Stand-up",
+          "Sprint Review",
+          "All of the Above",
+        ],
+      },
+      {
+        question: "What is the primary role of a Scrum Master ?",
+        answerIndex: 1,
+        choices: [
+          "Managing the Project",
+          "Facilitating the scrum process and removing obstacles",
+          "making all project decisions",
+          "Assigning tasks to team members",
+        ],
+      },
+    ],
+  },
+  "custom-dev": {
+    questions: [
+      {
+        question:
+          "What are the roles that can be found in Custom Development Tower ?",
+        answerIndex: 3,
+        choices: ["Frontend", "Backend", "Fullstack", "All of the Above"],
+      },
+      {
+        question: "What are the phases of SDLC ?",
+        answerIndex: 0,
+        choices: [
+          "Requiring and Gathering analysis, Design, Implementation, Testing, Deployment, Maintenance",
+          "Implementation, Deployment, Testing",
+          "Who needs testing ?",
+          "Who needs Analysis ?",
+        ],
+      },
+      {
+        question: "Usually in our code we are going for ?",
+        answerIndex: 0,
+        choices: [
+          "High Coupling, Low Cohesion",
+          "Low Coupling, High Cohesion",
+          "Doesn't matter",
+          "High Coupling, High Cohesion",
+        ],
+      },
+      {
+        question: "Principles of OOP ?",
+        answerIndex: 1,
+        choices: [
+          "Abstraction, Polymorphism, Single Responsibility, Encapsulation ",
+          "Abstraction, Polymorphism, Inheritance, Encapsulation ",
+          "Abstraction, Open Closed, Inheritance, Encapsulation ",
+          "Abstraction, Dependence Inversion, Inheritance, Encapsulation ",
+        ],
+      },
+      {
+        question:
+          "Which one of these is not a software Development methodology ?",
+        answerIndex: 1,
+        choices: ["Agile", "MoSCow method", "Waterfall", "V-model"],
+      },
+    ],
+  },
+  testing: {
+    questions: [
+      {
+        question: "What do you do when you find a Bug ?",
+        answerIndex: 3,
+        choices: [
+          "name it, give it a tiny hat and make it your pet",
+          "",
+          "",
+          "",
+        ],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+      {
+        question: "",
+        answerIndex: 0,
+        choices: ["", "", "", ""],
+      },
+    ],
+  },
   sap: {},
-  "sol-architecture": {},
+  "sol-architecture": {
+    questions: [
+      {
+        question:
+          "Which of the following is NOT a key responsibility of a solution architect ?",
+        answerIndex: 2,
+        choices: [
+          "Defining the system requirements",
+          "Designing the overall system structure",
+          "Managing the project budget",
+          "Ensuring compliance with architectural standards and best practices",
+        ],
+      },
+      {
+        question:
+          "the solution architect works closely with which stakeholders ?",
+        answerIndex: 3,
+        choices: [
+          "Project Managers",
+          "Software Developers",
+          "Business Analysis",
+          "All of the Above",
+        ],
+      },
+    ],
+  },
 };

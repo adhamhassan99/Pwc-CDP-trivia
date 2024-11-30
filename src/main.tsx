@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import QuestionPage from './routes/QuestionPage.tsx'
+import CorrectAnswer from './routes/correctAnswer.tsx'
+import FalseAnswer from './routes/falseAnswer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -14,7 +16,10 @@ createRoot(document.getElementById('root')!).render(
         </Route>
         <Route path='/:tower' element={
           <QuestionPage />
-        } />
+        } >
+          <Route path='correct' element={<CorrectAnswer />} />
+          <Route path='false' element={<FalseAnswer />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
