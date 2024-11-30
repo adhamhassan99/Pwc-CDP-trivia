@@ -1,10 +1,16 @@
-import React from 'react'
+import ReactConfetti from 'react-confetti'
+import { Link } from 'react-router'
 
-type Props = {}
 
-const CorrectAnswer = (props: Props) => {
+const CorrectAnswer = () => {
     return (
-        <div>CorrectAnswer</div>
+        <div className='mt-auto'>
+            <ReactConfetti numberOfPieces={700} />
+            <Link to={'/'} className=''>
+                <span className='text-4xl font-bold text-green-700 underline hover:no-underline'>Back to Tower Selection</span>
+            </Link>
+
+        </div>
     )
 }
 

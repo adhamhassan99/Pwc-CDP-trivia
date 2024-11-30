@@ -1,10 +1,13 @@
-import React from 'react'
+import { Link } from 'react-router'
 
-type Props = {}
 
-const FalseAnswer = (props: Props) => {
+const FalseAnswer = () => {
     return (
-        <div>FalseAnswer</div>
+        <div className='mt-auto'>
+            <Link to={'/'}>
+                <span className='font-bold text-6xl text-red-600'>Better Luck Next Time</span>
+            </Link>
+        </div>
     )
 }
 

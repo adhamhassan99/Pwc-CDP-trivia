@@ -43,31 +43,6 @@ export default {
         answerIndex: 3,
         choices: ["1-5", "5-10", "10-15", "15-30"],
       },
-      {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
-      },
-      {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
-      },
-      {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
-      },
-      {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
-      },
-      {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
-      },
     ],
   },
   cloud: {
@@ -441,34 +416,126 @@ export default {
         answerIndex: 3,
         choices: [
           "name it, give it a tiny hat and make it your pet",
-          "",
-          "",
-          "",
+          "Post a wanted poster for the bug in the office",
+          "Write a love letter and hope its fixed",
+          "Report it to the dev team so they can fix it",
         ],
       },
       {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
+        question: "How do you handle a stubborn bug that refuses to be fixed ?",
+        answerIndex: 3,
+        choices: [
+          "Take it out for a nice dinner and a movie theater",
+          "Threaten the bug with a fly swatter",
+          "Hire a bug Whisperer to fix it",
+          "Analyze the bug, debug the code and implement a fix",
+        ],
       },
       {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
+        question: "What is software testing ?",
+        answerIndex: 1,
+        choices: [
+          "The process of writing code",
+          "The process of finding and fixing bugs",
+          "The process of designing user interfaces",
+          "The process of documenting software requirements",
+        ],
       },
       {
-        question: "",
+        question:
+          "What is the difference between manual and automated testing ?",
         answerIndex: 0,
-        choices: ["", "", "", ""],
+        choices: [
+          "Manual testing is performed by humans, while automated testing is performed by tools",
+          "Manual testing is faster than automated testing",
+          "Manual testing requires programming skills while automated does not",
+          "Manual testing is more reliable than automated testing",
+        ],
       },
       {
-        question: "",
-        answerIndex: 0,
-        choices: ["", "", "", ""],
+        question: "What is the primary goal of software testing ?",
+        answerIndex: 2,
+        choices: [
+          "To write code for the software",
+          "To find and fix all bugs in the software",
+          "To ensure the software meets specified requirements",
+          "To document user manuals for the software",
+        ],
       },
     ],
   },
-  sap: {},
+  sap: {
+    questions: [
+      {
+        question: "What does the Acronym 'SAP' stand for ?",
+        answerIndex: 0,
+        choices: [
+          "Systems, Applications and Products in Data Processing",
+          "Software Analysis Program",
+          "Secure Applications Platform",
+          "Systematic Accounting Procedures",
+        ],
+      },
+      {
+        question: "What Programming language is used for SAP Development ?",
+        answerIndex: 2,
+        choices: ["Java", "C++", "ABAP", "Python"],
+      },
+      {
+        question:
+          "Which industry verticals are commonly served by SAP solutions ?",
+        answerIndex: 3,
+        choices: [
+          "Retail and E-commerce",
+          "Manufacturing and Production",
+          "Financial Services",
+          "All of the above",
+        ],
+      },
+      {
+        question:
+          "PwC's dedicated team for enterprise technology implementation, which collaborates with SAP, is known as ?",
+        answerIndex: 2,
+        choices: [
+          "PwC Technology solution",
+          "PwC Enterprise Technology Center",
+          "PwC ETIC (Egypt Technology and Innovation Center)",
+          "PwC SAP Implementation Services",
+        ],
+      },
+      {
+        question:
+          "What is one of the key objectives of PwC and SAP's collaboration ?",
+        answerIndex: 0,
+        choices: [
+          "Driving Digital Transformation",
+          "Enhancing Cybersecurity measures",
+          "Providing tax advisory services",
+          "Developing Industry Specific software solutions",
+        ],
+      },
+      {
+        question: "Which year did ETIC start ?",
+        answerIndex: 1,
+        choices: ["2020", "2022", "2023", "2021"],
+      },
+      {
+        question: "What is the ERP the top 500 fortune operating with ?",
+        answerIndex: 0,
+        choices: ["SAP", "Oracle", "Microsoft", "Oodo"],
+      },
+      {
+        question: "What was SAP founded ?",
+        answerIndex: 2,
+        choices: ["2001", "1996", "1972", "1889"],
+      },
+      {
+        question: "What is the current headcount of SAP tower in ETIC ?",
+        answerIndex: 2,
+        choices: ["50 - 80", "100 - 120", "130+", "70 - 100"],
+      },
+    ],
+  },
   "sol-architecture": {
     questions: [
       {
